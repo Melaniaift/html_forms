@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Pagina 2</title>
+        <link rel="stylesheet" href="css/style.css">
+     
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Forme HTML</h1>
+        <br/> <br/>
+        
+        <fieldset>
+        <legend><h2>Form validation</h2></legend>
+        <form method="post" action="index.html">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="uname" size="30" maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="uname" size="30" maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="pass" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Re-type password:</td>
+                    <td><input type="password" name="pass" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><label class="radio-inline"><input type="radio" name="gender" value="male" >Male </label> 
+                        <label class="radio-inline"><input type="radio" name="gender" value="female">Female </label> 
+                        <label class="radio-inline"><input type="radio" name="gender" value="other">Other </label></td>
+                </tr>
+                <tr>
+                    <td>Programming skills</td>
+                    <td><label class="checkbox-inline"><input type="checkbox" name="skill" value="java" >Java </label> 
+                        <label class="checkbox-inline"><input type="checkbox" name="skill" value="android">Android </label> 
+                        <label class="checkbox-inline"><input type="checkbox" name="skill" value="ruby">Ruby </label>
+                        <label class="checkbox-inline"><input type="checkbox" name="skill" value="Net">Net </label></td>
+                </tr>
+                <tr>
+                    <td>Contact no:</td>
+                    <td><input type="tel" name="number" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" size="30"></td>
+                </tr>
+                <tr>
+                    <td> College:</td>
+                    <td>    <select id="Sellect college">
+                            <option value="volvo">Select files</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit" ></td>
+                </tr>
+            </table>
+        </form>
+        </fieldset>
+        <a href="index.html">Index</a>
+        <a href="pagina1.html">Pagina 1</a>
+    </body>
+</html>
